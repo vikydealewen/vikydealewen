@@ -1,0 +1,218 @@
+@media (max-width: 1280px) {
+    .container {
+        padding: 0 41px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* header */
+
+    .header .nav__list {
+        display: none;
+    }
+
+    /* opportunities */
+
+    .opportunities__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        gap: 133px;
+    }
+
+    .picture__box-back {
+        left: 50%;
+        transform: translatex(-50%);
+    }
+
+    .picture__box-front {
+        left: 50%;
+        transform: translatex(-50%);
+    }
+
+    .opportunities__list {
+        align-self: center;
+    }
+
+    /* footer */
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 75px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .section__descr {
+        max-width: 426px;
+    }
+
+    /* header */
+
+    .header { 
+        padding-top: 28px;
+        padding-bottom: 27px;
+    }
+
+    .header__container {
+        padding-left: 36px;
+        padding-right: 16px;
+    }
+
+    /* hero */
+
+    .hero {
+        padding-top: 67px;
+        padding-bottom: 18px;
+        margin-bottom: 102px;
+        position: relative;
+    }
+
+    .hero::before {
+        background: linear-gradient(180deg, rgba(30, 30, 30, 0.00) 0%, #0E0E0E 100%);
+    }
+
+    .hero__container {
+        gap: 57px;
+    }
+
+    .hero__wrapper {
+        max-width: 100%;
+    }
+
+    .hero__title {
+        margin-bottom: 27px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .hero__descr {
+        margin-bottom: 67px;
+    }
+
+    .hero__action-wrapper {
+        gap: 21px;
+    }
+
+    .hero__picture-wrapper {
+        margin: 0 -41px;
+    }
+
+
+    /* opportunities */
+
+    .opportunities__container {
+        padding: 0 50px;
+    }
+
+    .opportunities__descr {
+        margin-bottom: 28px;
+    }
+
+    .opportunities__wrapper {
+        padding: 0 36.5px;
+    }
+
+    .picture__box-front {
+        top: 229px;
+    }
+
+    .opportunities__list {
+        padding: 0 53.5px;
+    }
+
+    .opportunities__item-descr {
+        padding-left: 10px;
+    }
+
+    /* extentions */
+
+    .extentions__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .extentions__card {
+        max-width: 348px;
+        padding: 50px 25.48px 40px 25.48px;
+    }
+
+    .card__img-second {
+        width: 280px;
+        height: 204px;
+    }
+
+    /* gallery */
+
+    .gallery__list {
+        display: none;
+    }
+
+    .gallery__list-mobile {
+        display: flex;
+        gap: 33px;
+    }
+
+    /* partners */
+
+    .partners__list {
+        max-width: 290px;
+        gap: 50px;
+    }
+
+    /* reviews */
+
+    .reviews__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__item {
+        width: auto;
+        max-width: 352px;
+    }
+
+    /* footer */
+
+    .footer__container {
+        padding: 0 165.5px;
+        align-items: flex-start;
+    }
+
+    .footer__nav .nav__list {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .section__title {
+        font-size: 40px;
+    }
+
+    .header__container {
+        gap: 15px;
+    }
+
+    .hero__picture-wrapper {
+        margin: 0 -20px;
+    }
+
+    .opportunities__img-chat {
+        width: 280px;
+        height: 275px;
+    }
+
+    .reviews__item {
+        padding: 20px;
+    }
+
+    .footer__container {
+        padding: 0 70px;
+    }
+}
