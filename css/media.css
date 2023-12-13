@@ -1,218 +1,309 @@
+@media (max-width: 1366px) {
+  .container {
+    padding: 0 60px;
+  }
+
+  .hero__container {
+    padding-bottom: 900px;
+  }
+
+  .hero__picture-wrapper {
+    bottom: 50px;
+  }
+}
+
 @media (max-width: 1280px) {
-    .container {
-        padding: 0 41px;
-    }
+  .container {
+    padding: 0 41px;
+  }
+
+  .hero__container {
+    padding-bottom: 850px;
+  }
+
+  .hero::before {
+    height: 20%;
+  }
 }
 
 @media (max-width: 992px) {
 
-    /* header */
+  /* header */
 
-    .header .nav__list {
-        display: none;
-    }
+  .header .nav__list {
+    display: none;
+  }
 
-    /* opportunities */
+  /* hero */
 
-    .opportunities__wrapper {
-        flex-direction: column;
-        justify-content: center;
-        gap: 133px;
-    }
+  .hero__container {
+    padding-bottom: 600px;
+  }
 
-    .picture__box-back {
-        left: 50%;
-        transform: translatex(-50%);
-    }
+  .hero__picture-wrapper {
+    height: 600px;
+  }
 
-    .picture__box-front {
-        left: 50%;
-        transform: translatex(-50%);
-    }
+  /* opportunities */
 
-    .opportunities__list {
-        align-self: center;
-    }
+  .opportunities__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 133px;
+  }
 
-    /* footer */
+  .picture__box-back {
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    transform: translatex(-50%);
+  }
 
-    .footer__container {
-        flex-direction: column;
-        align-items: center;
-        gap: 75px;
-    }
+  .picture__box-front {
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    transform: translatex(-50%);
+  }
+
+  .opportunities__list {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  /* reviews */
+
+  .reviews__item {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+
+  /* footer */
+
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 75px;
+  }
 }
 
 @media (max-width: 767px) {
 
-    .section__descr {
-        max-width: 426px;
-    }
+  .section__descr {
+    max-width: 426px;
+  }
 
-    /* header */
+  /* header */
 
-    .header { 
-        padding-top: 28px;
-        padding-bottom: 27px;
-    }
+  .header {
+    padding-top: 28px;
+    padding-bottom: 27px;
+  }
 
-    .header__container {
-        padding-left: 36px;
-        padding-right: 16px;
-    }
+  .header__container {
+    padding-left: 36px;
+    padding-right: 16px;
+  }
 
-    /* hero */
+  /* hero */
 
-    .hero {
-        padding-top: 67px;
-        padding-bottom: 18px;
-        margin-bottom: 102px;
-        position: relative;
-    }
+  .hero {
+    padding-top: 67px;
+    padding-bottom: 102px;
+    position: relative;
+  }
 
-    .hero::before {
-        background: linear-gradient(180deg, rgba(30, 30, 30, 0.00) 0%, #0E0E0E 100%);
-    }
+  .hero::before {
+    height: 31%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 30, 0.00)), to(#0E0E0E));
+    background: -o-linear-gradient(top, rgba(30, 30, 30, 0.00) 0%, #0E0E0E 100%);
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0.00) 0%, #0E0E0E 100%);
+  }
 
-    .hero__container {
-        gap: 57px;
-    }
+  .hero__container {
+    padding-bottom: 510px;
+    gap: 57px;
+  }
 
-    .hero__wrapper {
-        max-width: 100%;
-    }
+  .hero__wrapper {
+    max-width: 100%;
+  }
 
-    .hero__title {
-        margin-bottom: 27px;
-        font-size: 52px;
-        line-height: 62px;
-    }
+  .hero__title {
+    margin-bottom: 27px;
+    font-size: 52px;
+    line-height: 62px;
+  }
 
-    .hero__descr {
-        margin-bottom: 67px;
-    }
+  .hero__descr {
+    margin-bottom: 67px;
+  }
 
-    .hero__action-wrapper {
-        gap: 21px;
-    }
+  .hero__action-wrapper {
+    gap: 21px;
+  }
 
-    .hero__picture-wrapper {
-        margin: 0 -41px;
-    }
+  .hero__picture-wrapper {
+    height: 435px;
+    bottom: 118px;
+    background-image: url(../img/screenshots-549.png);
+    background-size: cover;
+  }
 
+  /* opportunities */
 
-    /* opportunities */
+  .opportunities__container {
+    padding: 0 50px;
+  }
 
-    .opportunities__container {
-        padding: 0 50px;
-    }
+  .opportunities__descr {
+    margin-bottom: 28px;
+  }
 
-    .opportunities__descr {
-        margin-bottom: 28px;
-    }
+  .picture__box-front {
+    top: 229px;
+  }
 
-    .opportunities__wrapper {
-        padding: 0 36.5px;
-    }
+  .opportunities__list {
+    padding: 0 53.5px;
+    width: auto;
+  }
 
-    .picture__box-front {
-        top: 229px;
-    }
+  .opportunities__item-descr {
+    padding-left: 10px;
+  }
 
-    .opportunities__list {
-        padding: 0 53.5px;
-    }
+  /* extentions */
 
-    .opportunities__item-descr {
-        padding-left: 10px;
-    }
+  .extentions__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 
-    /* extentions */
+  .extentions__card {
+    max-width: 348px;
+    padding: 50px 25.48px 40px 25.48px;
+  }
 
-    .extentions__wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
+  .card__img-second {
+    width: 280px;
+    height: 204px;
+  }
 
-    .extentions__card {
-        max-width: 348px;
-        padding: 50px 25.48px 40px 25.48px;
-    }
+  /* gallery */
 
-    .card__img-second {
-        width: 280px;
-        height: 204px;
-    }
+  .gallery__list {
+    display: none;
+  }
 
-    /* gallery */
+  .gallery__list-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 33px;
+  }
 
-    .gallery__list {
-        display: none;
-    }
+  /* partners */
 
-    .gallery__list-mobile {
-        display: flex;
-        gap: 33px;
-    }
+  .partners__list {
+    max-width: 290px;
+    gap: 50px;
+  }
 
-    /* partners */
+  /* reviews */
 
-    .partners__list {
-        max-width: 290px;
-        gap: 50px;
-    }
+  .reviews__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 
-    /* reviews */
+  .reviews__item {
+    max-width: 352px;
+  }
 
-    .reviews__list {
-        flex-direction: column;
-        align-items: center;
-    }
+  /* footer */
 
-    .reviews__item {
-        width: auto;
-        max-width: 352px;
-    }
+  .footer__container {
+    padding: 0 165.5px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
 
-    /* footer */
-
-    .footer__container {
-        padding: 0 165.5px;
-        align-items: flex-start;
-    }
-
-    .footer__nav .nav__list {
-        flex-direction: column;
-    }
+  .footer__nav .nav__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 480px) {
-    .container {
-        padding: 0 20px;
-    }
+  .container {
+    padding: 0 20px;
+  }
 
-    .section__title {
-        font-size: 40px;
-    }
+  .section__title {
+    font-size: 40px;
+  }
 
-    .header__container {
-        gap: 15px;
-    }
+  .section__descr {
+    width: auto;
+  }
 
-    .hero__picture-wrapper {
-        margin: 0 -20px;
-    }
+  .header__container {
+    gap: 15px;
+  }
 
-    .opportunities__img-chat {
-        width: 280px;
-        height: 275px;
-    }
+  .hero__container {
+    padding-bottom: 400px;
+  }
 
-    .reviews__item {
-        padding: 20px;
-    }
+  .hero__picture-wrapper {
+    height: 400px;
+    bottom: 70px;
+    background-size: contain;
+  }
 
-    .footer__container {
-        padding: 0 70px;
-    }
+  .opportunities__wrapper {
+    padding: 0;
+  }
+
+  .opportunities__img-chat {
+    width: 280px;
+    height: 275px;
+  }
+
+  .opportunities__list {
+    padding: 0px;
+  }
+
+  .reviews__item {
+    padding: 20px;
+  }
+
+  .footer__container {
+    padding: 0 65px;
+  }
 }
